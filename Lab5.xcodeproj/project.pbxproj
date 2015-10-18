@@ -14,6 +14,7 @@
 		6F1892AF1BBC6FB1005F083D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6F1892AE1BBC6FB1005F083D /* Images.xcassets */; };
 		6F1892B21BBC6FB1005F083D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6F1892B01BBC6FB1005F083D /* LaunchScreen.xib */; };
 		6F1892BE1BBC6FB1005F083D /* Lab5Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F1892BD1BBC6FB1005F083D /* Lab5Tests.swift */; };
+		6F1892CA1BBF05DF005F083D /* PlacesData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F1892C91BBF05DF005F083D /* PlacesData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 		6F1892B71BBC6FB1005F083D /* Lab5Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Lab5Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6F1892BC1BBC6FB1005F083D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6F1892BD1BBC6FB1005F083D /* Lab5Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lab5Tests.swift; sourceTree = "<group>"; };
+		6F1892C91BBF05DF005F083D /* PlacesData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlacesData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 		6F1892A11BBC6FB1005F083D /* Lab5 */ = {
 			isa = PBXGroup;
 			children = (
+				6F1892C91BBF05DF005F083D /* PlacesData.swift */,
 				6F1892A41BBC6FB1005F083D /* AppDelegate.swift */,
 				6F1892A91BBC6FB1005F083D /* ViewController.swift */,
 				6F1892AB1BBC6FB1005F083D /* Main.storyboard */,
@@ -218,6 +221,7 @@
 				6F1892AA1BBC6FB1005F083D /* ViewController.swift in Sources */,
 				6F1892A51BBC6FB1005F083D /* AppDelegate.swift in Sources */,
 				6F1892A81BBC6FB1005F083D /* Lab5.xcdatamodeld in Sources */,
+				6F1892CA1BBF05DF005F083D /* PlacesData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
